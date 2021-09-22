@@ -26,10 +26,22 @@ else if(month==2 && day>29)
 else
 	return true;
 
-
+}
+public boolean validResult(String resultat)
+{
+if(resultat.equals("test+")||resultat.equals("teste-"))
+	return true;
+else 
+	return false;
+}
+public boolean validDescription(String description)
+{
+if(description.contains("positif")||description.contains("negatif"))
+return true;
+else 
+	return false;
 
 }
-
 
 
 
