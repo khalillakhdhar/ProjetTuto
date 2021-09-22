@@ -54,9 +54,25 @@ public void verifDescription()
 {
 assertTrue(vt.validDescription("test négatif pour le cas 102"));	
 }
-	
-	
-	
-	
+@Test
+public void TestLogin()
+{
+assertTrue(va.ValidLogin("teste"));	
+}
+@Test
+public void TestMdp()
+{
+assertTrue(va.ValidMdp("password"));	
+}
+@Test
+public void testMail()
+{
+assertTrue(va.ValidMail("teste@gmail.com"));	
+}
+@Test
+public void testTel()
+{
+assertTrue(va.validTel("+2153998833"));	
+}
 	
 }
