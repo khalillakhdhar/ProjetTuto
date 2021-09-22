@@ -10,6 +10,13 @@ public void addToList(Parent p)
 {
 parentsListe.add(p);	
 }
+public static void showList()
+{
+for(Parent p: parentsListe)
+{
+System.out.println(p);	
 
+}
+}
 
 }
