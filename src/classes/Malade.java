@@ -40,13 +40,14 @@ public int getId_parent() {
 public void setId_parent(int id_parent) {
 	this.id_parent = id_parent;
 }
+
+
+
+
 @Override
 public String toString() {
 	return "Malade [id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", adresse=" + adresse + ", telephone="
-			+ telephone + ", id_parent=" + id_parent + ", getId()=" + getId() + ", getNom()=" + getNom()
-			+ ", getPrenom()=" + getPrenom() + ", getAdresse()=" + getAdresse() + ", getTelephone()=" + getTelephone()
-			+ ", getId_parent()=" + getId_parent() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-			+ ", toString()=" + super.toString() + "]";
+			+ telephone + ", id_parent=" + id_parent + "]";
 }
 public Malade(int id, String nom, String prenom, String adresse, String telephone, int id_parent) {
 	this.id = id;
