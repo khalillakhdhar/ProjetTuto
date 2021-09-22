@@ -19,10 +19,11 @@ int indicepoint=email.indexOf(".");
 int indiceat=email.indexOf("@");
 int longueur=email.length();
 int espacepoint=longueur-indicepoint;
+// khalil@gmail.fr
 int espaceat=longueur-indiceat;
 if(indicepoint<0 || indiceat<0)
 	return false;
-else if(espacepoint<2|| espaceat<4)
+else if(espacepoint<2|| espaceat<=4)
 	return false;
 else
 	return true;
