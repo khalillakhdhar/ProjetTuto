@@ -13,4 +13,14 @@ public double conversibleDouble(String y)
 	//si y="21a,3" => return exception 
 return Double.parseDouble(y);	
 }
+public int convertToInt(String z)
+{
+return Integer.parseInt(z);	
+
+}
+public boolean verifPositif(double w)
+{
+return w>0;	
+
+}
 }
