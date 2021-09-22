@@ -47,9 +47,13 @@ assertTrue(vt.validDay(31, 5));
 @Test
 public void verifResultat()
 {
-assertTrue(vt.validResult("teste"));	
+assertTrue(vt.validResult("teste-"));	
 }
-
+@Test
+public void verifDescription()
+{
+assertTrue(vt.validDescription("test négatif pour le cas 102"));	
+}
 	
 	
 	

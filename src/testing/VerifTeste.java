@@ -36,7 +36,7 @@ else
 }
 public boolean validDescription(String description)
 {
-if(description.contains("positif")||description.contains("negatif"))
+if(description.contains("positif")||description.contains("négatif"))
 return true;
 else 
 	return false;
