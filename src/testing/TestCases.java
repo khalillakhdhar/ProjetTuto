@@ -36,8 +36,20 @@ assertTrue(vg.verifPositif(4));
 @Test
 public void testNotEmpty()
 {
-assertTrue(vg.verifChaine(""));	
+assertTrue(vg.verifChaine("bonjour"));	
 }
+@Test
+public void testDate()
+{
+assertTrue(vt.validDay(31, 5));	
+
+}
+@Test
+public void verifResultat()
+{
+assertTrue(vt.validResult("teste"));	
+}
+
 	
 	
 	
