@@ -33,6 +33,11 @@ public void testPositif()
 {
 assertTrue(vg.verifPositif(4));	
 }
+@Test
+public void testNotEmpty()
+{
+assertTrue(vg.verifChaine(""));	
+}
 	
 	
 	
