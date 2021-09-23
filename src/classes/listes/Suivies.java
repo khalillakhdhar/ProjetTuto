@@ -11,7 +11,7 @@ public void addToMyList(Suivie s)
 {
 suivieListe.add(s);	
 }
-public void showListSuivie()
+public static void showListSuivie()
 {
 for(Suivie su:suivieListe)
 	System.out.println(su.toString());
