@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form>
-login<input type="text" name="login" required ><br>
-password<input type="password" name="mdp" required><br>
+<form method="post" action="LoginServlet">
+login<input type="text" name="login" ><br>
+password<input type="password" name="mdp" ><br>
 <input type="submit" value="se connecter">
 
 </form>
