@@ -12,7 +12,7 @@ public class TestAdmin {
 		String mdp="user";
 		VerifGenerale vg=new VerifGenerale();
 		VerifAdmin vd=new VerifAdmin();
-		if(vg.verifChaine(nom)||vg.verifChaine(login)||vg.verifChaine(mdp))
+		if(vg.verifChaine(nom)&&vg.verifChaine(login)&&vg.verifChaine(mdp))
 		{
 			if(vd.ValidLogin(login)&&vd.ValidMdp(mdp))
 			{

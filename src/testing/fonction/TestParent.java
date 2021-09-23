@@ -15,7 +15,7 @@ public class TestParent {
 		String telephone="00337689432";
 		VerifGenerale vg=new VerifGenerale();
 		VerifAdmin vd=new VerifAdmin();
-		if(vg.verifChaine(nom)||vg.verifChaine(mdp)||vg.verifChaine(email)||vg.verifChaine(telephone))
+		if(vg.verifChaine(nom)&&vg.verifChaine(mdp)&&vg.verifChaine(email)&&vg.verifChaine(telephone))
 		{
 			if(vd.ValidMail(email)&&vd.ValidMdp(mdp)&&vd.validTel(telephone))
 			{
